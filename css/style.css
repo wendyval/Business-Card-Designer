@@ -9,3 +9,10 @@ h1 {
     font: 30px 'Crimson Text', serif;
     color: #0A3D64;
 }
+
+main.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
