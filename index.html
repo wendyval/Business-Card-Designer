@@ -19,7 +19,59 @@
         <!-- Below is the main content -->
         <main class="main-container">
             <form id="card-info" class="left-column">
+                <div class="form-section">
+                    <label for="inputCompany">Company Name:</label>
+                    <input type="text" id="inputCompany" class="input-field" name="company-name" onkeyup="displayCompany()">
+                </div>
 
+                <div class="form-section">
+                    <label for="inputMessage">Company Message:</label>
+                    <input type="text" id="inputMessage" class="input-field" name="message" onkeyup="displayMessage()">
+                </div>
+
+                <div class="form-section">
+                    <label for="inputBgColor">Background Color:</label>
+                    <input type="color" value="#efefef" id="inputBgColor" class="input-field" name="background-color" onkeyup="changeBgColor()">
+                </div>
+
+                <div class="form-section">
+                    <label for="inputText">Text Color:</label>
+                    <input type="color" value="#000000" id="inputText" class="input-field" name="text-color" onkeyup="changeText()">
+                </div>
+
+                <div class="form-section">
+                    <label for="text-align">Text Align:</label>
+                    <div class="input-field">
+                        <button id="text-left" value="Left" name="text-align" onclick="alignText(this.id)">Left</button>
+                        <button id="text-center" value="Center" name="text-align" onclick="alignText(this.id)">Center</button>
+                        <button id="text-right" value="Right" name="text-align" onclick="alignText(this.id)">Right</button>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <label for="inputName">Your Name:</label>
+                    <input type="text" id="inputName" class="input-field" name="name" onkeyup="displayName()">
+                </div> 
+
+                <div class="form-section">
+                    <label for="inputCompany">Company Name:</label>
+                    <input type="text" id="inputCompany" class="input-field" name="name" onkeyup="displayCompany()">
+                </div>  
+                
+                <div class="form-section">
+                        <label for="inputTitle">Job Title:</label>
+                        <input type="text" id="inputTitle" class="input-field" name="title" onkeyup="displayTitle()">
+                    </div>
+
+                <div class="form-section">
+                    <label for="inputEmail">Email:</label>
+                    <input type="email" id="inputEmail" class="input-field" name="email" onkeyup="displayEmail()">
+                </div>
+
+                <div class="form-section">
+                    <label for="inputNumber">Email:</label>
+                    <input type="tel" id="inputNumber" class="input-field" name="telephone number" onkeyup="displayNumber()">
+                </div>
             </form>
 
             <!-- Output Section  -->
