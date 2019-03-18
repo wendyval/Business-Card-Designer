@@ -3,6 +3,41 @@ html, body {
     background-color: #F8F6F3;
 }
 
+/*********  Below is the style for the border *********/
+#body-top {
+    top: 0;
+}
+
+#body-bottom {
+    bottom: 0;
+}
+
+#body-left {
+    left: 0;
+}
+
+#body-right {
+    right: 0;
+}
+
+#body-bottom, #body-top {
+    left: 0;
+    right: 0;
+    height: 12px;
+}
+
+#body-right, #body-left {
+    top: 0;
+    bottom: 0;
+    width: 12px;
+}
+
+#body-bottom, #body-top, #body-right, #body-left {
+    background-color: #EAAD5A;
+    position: fixed;
+}
+/*********  Above is the style for the border *********/
+
 h1 {
     text-align: center;
     padding: 25px 0 30px;
