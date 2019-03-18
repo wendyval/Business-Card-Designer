@@ -1,4 +1,8 @@
-html, body {
+html {
+    margin: 0;
+}
+
+body {
     margin: 0;
     background-color: #F8F6F3;
 }
@@ -135,4 +139,49 @@ footer p.copyright {
     padding-bottom: 18px;
     font: 16px 'Crimson Text', serif;
     color: #EAAD5A;
+}
+
+/*********  Media Queries *********/
+@media screen and (max-width: 990px) {
+    main.main-container {
+        flex-direction: column;
+        
+        align-items: center;
+    }
+    form.left-column {
+        width: 70%;
+        margin-bottom: 30px;
+    }
+    #card { 
+        max-width: 100vw;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 604px) {
+    input[type="button"] {
+        margin: 5px 0;
+    }
+    form.left-column {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+    #card {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #body-top, #body-bottom, #body-left, #body-right { 
+        display: none; 
+    }
+    form.left-column {
+        width: 90%;
+    }
+    h1 {
+        margin: 0 20px;
+    }
 }
