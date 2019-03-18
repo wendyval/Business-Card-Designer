@@ -2,3 +2,10 @@ html, body {
     margin: 0;
     background-color: #F8F6F3;
 }
+
+h1 {
+    text-align: center;
+    padding: 25px 0 30px;
+    font: 30px 'Crimson Text', serif;
+    color: #0A3D64;
+}
