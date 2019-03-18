@@ -10,9 +10,20 @@ h1 {
     color: #0A3D64;
 }
 
+/************ Below is the style for the main content ************/
 main.main-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-bottom: 30px;
+}
+
+/* Below is the style for the left column */
+form.left-column {
+    width: 46%;
+    padding: 20px 0 40px;
+    background-color: #D2DBE2;
+    -webkit-box-shadow: -10px 10px 50px -15px #C9C9C8;
+     -moz-box-shadow: -10px 10px 50px -15px #C9C9C8;
+          box-shadow: -10px 10px 50px -15px #C9C9C8;
 }
