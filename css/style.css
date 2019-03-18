@@ -45,3 +45,8 @@ form.left-column {
     width: 60%;
     margin: 0 auto;
 }
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="color"] { 
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
