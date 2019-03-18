@@ -27,3 +27,21 @@ form.left-column {
      -moz-box-shadow: -10px 10px 50px -15px #C9C9C8;
           box-shadow: -10px 10px 50px -15px #C9C9C8;
 }
+
+.form-section {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 5px;
+    font-family: 'Nunito', sans-serif;
+    color: #0A3D64;
+}
+
+.form-section label{
+    width: 30%;
+    text-align: right;
+}
+
+.form-section .input-field{
+    width: 60%;
+    margin: 0 auto;
+}
